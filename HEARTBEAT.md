@@ -1,30 +1,31 @@
-# HEARTBEAT.md
+# 🔄 Status System - Active Loading Messages
 
-# Memory and Session Tasks
+## 💬 Current Status (Auto-Updated)
+- **Heartbeat:** Running every 30 minutes
+- **Mode:** Proactive mode ON
+- **Last Activity:** Update via heartbeat system
 
-## Tasks to Check (Rotate through these)
+## 📊 Task Status Display
+When I'm working on tasks, I display loading messages like:
+- 🌱 Sedang inisialisasi...
+- 🔍 Mencari info...
+- 🔄 Memproses request...
+- ⚡ Sedang bekerja...
+- 🧠 Berpikir intens...
+- 💾 Menyimpan data...
+- ✅ Selesai!
 
-### Memory Maintenance
-- [x] Check for unsaved memories that need updating to MEMORY.md
-- [x] Review recent session logs for important events
-- [x] Clean up temporary memory files older than 7 days
+## 🔧 Heartbeat Frequency
+- **Active Hours:** Every 30 minutes
+- **Quiet Hours:** Hourly (21:00-08:00)
+- **Skip:** Overnight unless urgent alerts
 
-### Session Health
-- [x] Verify current session is still active
-- [x] Check for any orphaned sessions
-- [x] Log session heartbeat timestamp
-
-### Boot Hook Status
-- [x] Verify all boot hooks loaded successfully
-- [x] Check if any hooks need updating
-- [x] Run diagnostic hook if available
-
-## Heartbeat Frequency
-- Run checks every 30 minutes during active hours
-- Reduce to hourly during quiet periods
-- Skip overnight (23:00-08:00) unless urgent alerts
+## 📝 Memory & Session Maintenance
+- Check for unsaved memories → Update MEMORY.md
+- Review recent logs → Identify important events
+- Clean up old files (>7 days)
+- Check for orphaned sessions
 
 ---
 
-Last run: 2026-02-15T11:32:30Z
-Next run: [will be updated by system]
+**User Request:** Always show loading text when I'm working so you know I'm thinking and replying.

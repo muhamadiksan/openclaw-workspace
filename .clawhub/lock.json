@@ -4,6 +4,10 @@
     "agent-browser": {
       "version": "0.2.0",
       "installedAt": 1770803375381
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1771132392122
     }
   }
 }
