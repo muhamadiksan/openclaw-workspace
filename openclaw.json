@@ -1,0 +1,530 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.15",
+    "lastTouchedAt": "2026-02-20T01:09:00.000Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-16T01:53:40.591Z",
+    "lastRunVersion": "2026.2.9",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "zai:default": {
+        "provider": "zai",
+        "mode": "api_key"
+      },
+      "byteplus:default": {
+        "provider": "byteplus",
+        "mode": "api_key"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "byteplus": {
+        "baseUrl": "https://ai.sumopod.com/v1",
+        "apiKey": "${sk-OpisR4LBE1xOqHnyAFtPjg}",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "deepseek-v3-2-251201",
+            "name": "DeepSeek V3",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-v3-1.5-251201",
+            "name": "DeepSeek V3 1.5B",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-v3-1-251201",
+            "name": "DeepSeek V3 Base",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-coder-33b-instruct-251201",
+            "name": "DeepSeek Coder 33B",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-coder-6.7b-instruct-251201",
+            "name": "DeepSeek Coder 6.7B",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "glm-4-7-251222",
+            "name": "GLM 4.7",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "glm-4-9k-chat-251222",
+            "name": "GLM 4.9K Chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "glm-3-turbo-251222",
+            "name": "GLM 3 Turbo",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "glm-3-turbo-0924",
+            "name": "GLM 3 Turbo 0924",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "glm-4-air-251222",
+            "name": "GLM 4 Air",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-k2-250905",
+            "name": "Kimi K2",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 224000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-k2-thinking-251104",
+            "name": "Kimi K2 Thinking",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 224000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-k2-251104",
+            "name": "Kimi K2 Updated",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 224000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-moe-8x22b-250905",
+            "name": "Kimi MoE 8x22B",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 224000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "kimi-lite-250905",
+            "name": "Kimi Lite",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 224000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "seed-1-8-251228",
+            "name": "Seed 1.8",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "seed-1-5-251228",
+            "name": "Seed 1.5",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "seed-1-3-251228",
+            "name": "Seed 1.3",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-72b-chat-251222",
+            "name": "Qwen 72B Chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-14b-chat-251222",
+            "name": "Qwen 14B Chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen-7b-chat-251222",
+            "name": "Qwen 7B Chat",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "zai/glm-4.5-air"
+      },
+      "models": {
+        "zai/glm-4.7": {
+          "alias": "GLM"
+        },
+        "zai/glm-4.5-flash": {},
+        "zai/glm-4.7-flash": {},
+        "zai/glm-4.5-air": {},
+        "byteplus/deepseek-v3-2-251201": {
+          "alias": "DeepSeek V3"
+        },
+        "byteplus/glm-4-7-251222": {
+          "alias": "GLM 4.7"
+        },
+        "byteplus/kimi-moe-8x22b-250905": {
+          "alias": "Kimi MoE"
+        },
+        "byteplus/kimi-k2-250905": {
+          "alias": "Kimi K2"
+        },
+        "byteplus/seed-1-8-251228": {
+          "alias": "Seed 1.8"
+        }
+      },
+      "workspace": "/root/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        },
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "allowlist",
+      "botToken": "8574855644:AAGqgkxEh6c1bsEHF7s0mX6gY9Xi1QP5h18",
+      "allowFrom": [
+        "8574853679",
+        "8458183679"
+      ],
+      "groupPolicy": "allowlist",
+      "streamMode": "partial"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "controlUi": {
+      "allowInsecureAuth": false
+    },
+    "auth": {
+      "mode": "token",
+      "token": "761508f7f1117816391569bcebb19adc8bac9bf4559ef574"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "plugins": {
+    "allow": [
+      "feishu",
+      "qqbot",
+      "ddingtalk",
+      "wecom",
+      "adp-openclaw",
+      "telegram"
+    ],
+    "entries": {
+      "feishu": {
+        "enabled": true
+      },
+      "qqbot": {
+        "enabled": true
+      },
+      "ddingtalk": {
+        "enabled": true
+      },
+      "wecom": {
+        "enabled": true
+      },
+      "adp-openclaw": {
+        "enabled": true
+      },
+      "telegram": {
+        "enabled": true
+      }
+    },
+    "installs": {
+      "qqbot": {
+        "source": "npm",
+        "spec": "@sliverp/qqbot@latest",
+        "installPath": "/root/.openclaw/extensions/qqbot",
+        "version": "1.4.4",
+        "installedAt": "2026-02-19T16:46:31.486Z"
+      },
+      "ddingtalk": {
+        "source": "npm",
+        "spec": "git+https://cnb.cool/lighthouse/lighthousebackend/openclaw-dingtalk.git",
+        "installPath": "/root/.openclaw/extensions/ddingtalk",
+        "version": "1.2.0",
+        "installedAt": "2026-02-11T09:49:01.618Z"
+      },
+      "wecom": {
+        "source": "npm",
+        "spec": "git+https://cnb.cool/lighthouse/lighthousebackend/openclaw-wecom.git",
+        "installPath": "/root/.openclaw/extensions/wecom",
+        "version": "2026.2.5",
+        "installedAt": "2026-02-11T09:49:25.555Z"
+      },
+      "adp-openclaw": {
+        "source": "npm",
+        "spec": "adp-openclaw",
+        "installPath": "/root/.openclaw/extensions/adp-openclaw",
+        "version": "0.0.25",
+        "installedAt": "2026-02-19T16:46:36.457Z"
+      }
+    }
+  }
+}
